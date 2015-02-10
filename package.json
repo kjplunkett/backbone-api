@@ -1,0 +1,24 @@
+{
+  "name": "backbone-api",
+  "version": "0.0.0",
+  "description": "Using an api w/ Backbone",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kjplunkett/backbone-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kjplunkett/backbone-api/issues"
+  },
+  "homepage": "https://github.com/kjplunkett/backbone-api",
+  "devDependencies": {
+    "backbone": "^1.1.2",
+    "jquery": "^2.1.3",
+    "underscore": "^1.7.0"
+  }
+}
