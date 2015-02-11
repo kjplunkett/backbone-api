@@ -3,6 +3,9 @@
 
 var Marionette = require('backbone.marionette');
 var CatItemView = require('./index.js');
+var _ = require('lodash');
+var fs = require('fs');
+var templateHTML = fs.readFileSync(__dirname + '/composite-template.html', 'utf8');
 
 /**
  * @class CatsCompositeView
@@ -14,7 +17,7 @@ var CatsCompositeView = Marionette.CompositeView.extend({
 
     childViewContainer: 'ul',
 
-    template: '#composite-template'
+    template: _.template(templateHTML)
 });
 
 module.exports = CatsCompositeView;
