@@ -17391,7 +17391,7 @@ var CatModel = require('./index.js');
 var CatsCollection = Backbone.Collection.extend({
     model: CatModel,
 
-    url: '/api/cats/index.json'
+    url: '/api/cats/MOCK_DATA.json'
 });
 
 module.exports = CatsCollection;
@@ -17409,8 +17409,8 @@ var Backbone = require('backbone');
  */
 var CatModel = Backbone.Model.extend({
     defaults: {
-        name: '',
-        age: null
+        firstname: '',
+        lastname: ''
     }
 });
 

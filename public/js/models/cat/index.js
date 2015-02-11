@@ -10,8 +10,8 @@ var Backbone = require('backbone');
  */
 var CatModel = Backbone.Model.extend({
     defaults: {
-        name: '',
-        age: null
+        firstname: '',
+        lastname: ''
     }
 });
 
