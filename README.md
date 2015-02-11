@@ -14,8 +14,7 @@
 
 ### Goals
 
-<s>
-- Setup Backbone
-- Setup API
-- Browserify, etc.
-</s>
+- Setup Backbone :thumbsup:
+- Setup API :thumbsup:
+- Browserify, etc. :thumbsup:
+- Use external html templates :thumbsup:

@@ -5,7 +5,7 @@ module.exports = function (grunt) {
         alias: {
             'default': ['build', 'connect', 'watch'],
             'build': [
-                'browserify:dist'
+                'shell:browserify'
             ]
         },
         pkg: grunt.file.readJSON('package.json')
